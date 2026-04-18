@@ -1,0 +1,72 @@
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 25px;
+    background-color: #ffffff;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-left: 4px solid #16213e;
+}
+
+.filterSection {
+    margin: 25px 0 20px 0;
+    padding: 12px 0;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.filterLabel {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: 500;
+    color: #2c3e50;
+    font-size: 15px;
+}
+
+.filterInput {
+    padding: 8px 12px;
+    width: 260px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    background: #f9f9f9;
+    color: #000;
+}
+
+.filterInput:focus {
+    outline: none;
+    border-color: #2c3e50;
+    background: white;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.item {
+    padding: 14px 12px;
+    margin-bottom: 8px;
+    background: #ffffff;
+    border-left: 3px solid #2c3e50;
+    font-size: 16px;
+    color: #2d3436;
+}
+
+.item:hover {
+    background: #f8f9fa;
+    border-left-width: 5px;
+}
+
+.emptyMessage {
+    text-align: center;
+    color: #b2bec3;
+    padding: 50px 20px;
+    font-size: 15px;
+}
